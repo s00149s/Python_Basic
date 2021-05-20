@@ -136,5 +136,5 @@ if __name__ == "__main__":
 #    rel_oper()
 #    variable_ex()
 #    assignment_ex()
-#     logical_oper()
+#    logical_oper()
     bit_oper()
