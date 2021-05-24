@@ -75,6 +75,11 @@ def for_ex():
     ****
     *****
     """
+    for i in range(2, 10):
+        for e in range(2, 10):
+            print(i, "*", e, "=", i * e)
+
+
 
 
 
