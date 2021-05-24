@@ -18,7 +18,7 @@ def handling_exception():
         # lst[3] = 1
         # 4 / 0
         # int("String")
-        int(1234567890)
+        print(int(1234567890))
     except ValueError as e:
         print("정수로 변환 불가!")
         print(e, type(e))
