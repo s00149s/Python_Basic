@@ -57,7 +57,7 @@ def q1_3(): # 루프 돌리기
 
 
     """
-    for student in studnets:
+    for student in students:
         total = student.get("kor") + student.get("eng) + student.get("math")
         average = total / 3
         student['total'] = total
