@@ -97,7 +97,7 @@ def pickle_load_multi():
 
 def slamdunk_read():
     # sangbuk.csv
-    # 한 줄 단위로 읽어서 -> dict -> lsit에 적재
+    # 한 줄 단위로 읽어서 -> dict -> list에 적재
     # pickle에 덤프
     players = []
     with open("./sample/sangbuk.csv", "rt", encoding="UTF-8") as f:
